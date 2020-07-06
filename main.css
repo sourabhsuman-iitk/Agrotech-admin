@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    z-index: 100;
+}
+
+span {
+    padding: 5px 10px;
+}
+/* .hide-container {
+    display: none;
+} */
+.firebaseui-tos {
+    display: none;
+}
+#firebaseui-auth-container {
+    margin-top: 10px;
+}
+.sign-in-header {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-top: 100px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+.no-default {
+    outline: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+}
+.remove-margin {
+    margin: 9px 0;
+}
+.margin-top-button {
+    margin-top: 5px;
+}
+.text-overflow {
+    display: block;
+    width: 100px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.style-cross i{
+    font-size: 1.3rem;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px;
+    
+}
+td {
+    padding: 10px;
+}
+.sidenav-elements {
+    margin-top: 120px;
+}
+.brand-on-sidenav {
+    margin: 15px auto 0 90px;
+    position: fixed;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+.avatar-style {
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 870px) {
+    .style-cross {
+        width: 20px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .text-overflow {
+        width: 55px;
+    }
+    .sidenav.sidenav-fixed{
+        width: 250px;
+    }
+    .brand-on-sidenav {
+        margin-left: 65px;
+    }
+}
